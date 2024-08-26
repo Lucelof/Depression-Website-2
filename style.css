@@ -1,0 +1,85 @@
+body {
+    background-color: #d0f0d0; 
+}
+
+.header {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.helpline-card {
+    background-color: #b0e57c; 
+    width: 30%; 
+    padding: 20px;
+    text-align: center;
+}
+
+.survey-section {
+    border: 2px solid #228B22; 
+    padding: 20px;
+    background-color: #e0f0e0; 
+    margin: 20px 0;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.video-section {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    height:10%;
+}
+
+.card {
+    background-color: #e0f0e0; 
+    border: 2px solid #228B22; 
+    width: 30%; 
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+}
+
+.card-body {
+    flex: 1;
+}
+
+.card-body ul {
+    padding-left: 1px;
+}
+
+.footer {
+    margin: 20px 0;
+    padding: 10px 0;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #228B22; 
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+ul {
+  margin: 0;
+  padding-left: 1px;ul {
+      margin: 0;
+      padding-left: 1px;
+  }
+
+ li {
+  margin-bottom: 1px; 
+}
